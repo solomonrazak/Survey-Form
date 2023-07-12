@@ -1,0 +1,65 @@
+body{
+  background-image: url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+}
+.container{
+  width: 60%;
+  margin: 20px auto;
+  background-color: #2f4f4f;
+  padding: 10px;
+}
+#title {
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+#description{
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+}
+label{
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+  
+}
+#survey-form{
+  padding: 10px;
+}
+
+
+
+fieldset{
+  border: none;
+}
+input, textarea, select{
+  display: block;
+  width: 100%;
+  min-height: 2em;
+  margin-bottom: 0.5em;
+}
+.inline{
+  
+  width: unset;
+  margin: 0 0.5em 0 0;
+}
+legend{
+  color: white;
+}
+input[type="radio"]{
+  display: inline;
+}
+input[type="checkbox"]{
+  display: inline-block;
+}
+
+button{
+  width: 60%;
+  min-width: 95%;
+ margin: 20px 20px;
+  font-size: 1.1rem;
+  background-color:  #3b3b4f;
+  border-color: white;
+  height: 2em;
+  color: white;
+}
